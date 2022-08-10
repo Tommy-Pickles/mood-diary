@@ -1,0 +1,29 @@
+contract address = 0x04758F86dA57A764F31d7C9056C41050e6434ef3
+ABI = [
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_mood",
+				"type": "string"
+			}
+		],
+		"name": "setMood",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getMood",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
